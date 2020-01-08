@@ -1,92 +1,120 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+  first: Mattia
+  middle: Nicolò
+  last: Careddu
+about: I am curious, creative, always finding the best way to achieve my goal.
+    I try to learn from everything and from everyone.
+    I'd rather spend 10 minutes today than 30 seconds every day.
 position: Software Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1995
+  location: Milan
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: nCore
+  position: Senior Software Developer
+  timeperiod: since July 2019
+  description:
+    Development of new features, optimization and testing of saas proprietary product.
+    Working with international partners and customers.
+    Data Analysis and Machine learning algorithm (classification, regression, natural language processing) on large volume of data.
+    Elastic stack (ElasticSearch, Kibana, Logstash) for statistics and data analysis.
+    Most used technologies are PHP, Symfony, MySQL, MongoDB, Python (including libraries as numpy, scikit, nltk, matplotlib), ElasticSearch, Logstash, Kibana.
+  website: https://www.ncorehr.com/
 
-- company: Company B
-  position: Frontend Developer
+- company: e-one
+  position: Full stack Web Developer
   timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+  description: 
+    Team leader, devops.
+    Design (effort, technologies, infrastructure, model, optimization, continous integration), develope and testing high load web applications.
+    Optimization process from database level to application level including custom solutions.
+    Data analysis and statistics using SQL databases, NoSQL databases and ElasticSearch.
+    Setting up docker for both development and production with continous integration solutions such as Gitlab CI and Jenkins.
+    Most used technologies are PHP, Symfony (and all related components), MySQL, MongoDB, Redis, ElasticSearch, Git, Linux (LAMP stack), Apache, NGINX, Docker, Javascript, AngularJS, VueJS.
+  website: http://www.e-one.it/
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Web Developer
+  position: Web Developer
+  timeperiod: July 2015 - November 2015
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Informatica e Telecomunicazioni
+  timeperiod: 2009 - 2015
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Music
+  timeperiod: Since 2015
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
+- name: PHP
+  level: 100
+- name: Symfony
   level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
+- name: Python
+  level: 95
+- name: Flask
+  level: 85
+- name: Javascript
+  level: 85
+- name: VueJS
+  level: 75
+- name: SQL
+  level: 90
+- name: NoSQL
+  level: 85
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+  level: 100
+- name: Git
+  level: 100
+- name: Bootstrap
+  level: 90
+- name: ElasticSearch
+  level: 85
+- name: Kibana
+  level: 80
+- name: Machine learning
+  level: 60
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Babs
+  platform: python
+  description: Music Library
+  url: https://github.com/iskyd/babs
 
 hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+- name: AI
+  iconClass: fa fa-laptop
 
-- name: Drawing
+- name: Music
+  iconClass: fa fa-music
+
+- name: Art
   iconClass: fa fa-pencil
-  url: https://example.com
+
+- name: Books
+  iconClass: fa fa-book
+
+- name: Blockchain
+  iconClass: fa fa-chain
+
+- name: Formula 1
+  iconClass: fa fa-car
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: BoltCMS
+  description: Bolt is a simple CMS written in PHP. It is based on Silex and Symfony components, uses Twig and either SQLite, MySQL or PostgreSQL.
+  url: https://github.com/bolt/bolt
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: careddumattia@gmail.com
+  phone: 3284825184
+  street: Viale Italia 227
+  city: Sesto San Giovanni
+  website: iskyd.it
+  github: iskyd
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
