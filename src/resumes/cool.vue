@@ -20,6 +20,7 @@
             {{ person.knowledge }}
           </div>
         </div>
+        <hr style="margin-top: 10px; margin-bottom: 10px;">
 
         <div
           v-if="person.skills"
@@ -40,7 +41,7 @@
             </a>
           </div>
         </div>
-
+        <hr style="margin-top: 10px; margin-bottom: 10px;">
         <div class="section">
           <div class="section-headline">
             {{ lang.contact }}
@@ -87,6 +88,22 @@
               class="section-link"
               :href="contactLinks.medium">
               <i class="section-link__icon fa fa-medium"></i>{{ person.contact.medium }}
+            </a>
+          </div>
+        </div>
+        <hr style="margin-top: 10px; margin-bottom: 10px;">
+        <div class="section-headline">
+          {{ lang.hobbies }}
+        </div>
+        <div class="section-content section-content--plain">
+          <!-- <span class="subheadline">Hobbies</span> -->
+          <div class="hobbies-content">
+            <a v-for="(hobby, index) in person.hobbies" :key="index"
+              class="hobby-item section-link"
+              :href="hobby.url">
+
+              <i v-if="hobby.iconClass" :class="hobby.iconClass + ' section-link__icon'"></i>
+              <span class="hobby-item__icon-label"> {{ hobby.name }} </span>
             </a>
           </div>
         </div>
