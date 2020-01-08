@@ -78,11 +78,11 @@ skills:
 - name: Machine learning
   level: 60
 
-projects:
-- name: Babs
-  platform: python
-  description: Music Library
-  url: https://github.com/iskyd/babs
+# projects:
+# - name: Babs
+#   platform: python
+#   description: Music Library
+#   url: https://github.com/iskyd/babs
 
 hobbies:
 - name: AI
