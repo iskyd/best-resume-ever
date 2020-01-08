@@ -130,6 +130,7 @@
 
               <div class="section-content__text">{{ experience.timeperiod }}</div>
               <span class="section-content__text--light">{{ experience.description }}</span>
+              <hr v-if="index != Object.keys(experience).length - 1" style="margin-top:10px; margin-bottom: 10px;">
             </a>
           </div>
         </div>
@@ -161,7 +162,7 @@
             <i class="section-headline__icon material-icons">code</i>{{ lang.projects }}
           </div>
 
-          <div class="section-content-grid">
+          <div class="section-content">
             <a v-for="(project, index) in person.projects" :key="index"
               class="section-content__item-grid"
               :href="project.url">
@@ -179,7 +180,7 @@
             <i class="section-headline__icon fa fa-heart"></i>{{lang.contributions}}
           </div>
 
-          <div class="section-content-grid">
+          <div class="section-content">
             <a
               v-for="(contribution, index) in person.contributions"
               class="section-content__item-grid"
