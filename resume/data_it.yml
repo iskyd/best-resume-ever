@@ -3,50 +3,50 @@ name:
   first: Mattia
   middle: Nicolò
   last: Careddu
-about: I am curious, creative, always finding the best way to achieve my goals.
-    I try to learn from everything and from everyone.
-    I love open source (trying to contribute in my free time) and I love trying and using the latest technologies.
-    I'd rather spend 10 minutes today than 30 seconds every day. Automate everything.
+about: Sono curioso, creativo e cerco sempre il modo migliore per raggiungere i miei obbiettivi.
+    Cerco di imparare da tutto e da tutti.
+    Amo l'open source (cerco di contribuire nel mio tempo libero) e amo provare e usare le ultime tecnologie.
+    Preferisco spendere 10 minuti oggi che 30 secondi ogni giorno. Automate everything.
 position: Software Developer
 
 birth:
   year: 1995
-  location: Milan
+  location: Milano
 
 experience:
 - company: nCore
   position: Senior Software Developer
-  timeperiod: since July 2019
+  timeperiod: da Luglio 2019
   description:
-    Development of new features, optimization and testing of saas proprietary product.
-    Working with international partners and customers.
-    Data Analysis and Machine learning algorithm (classification, regression, natural language processing) on large volume of data.
-    Elastic stack (ElasticSearch, Kibana, Logstash) for statistics and data analysis.
-    Most used technologies are PHP, Symfony, MySQL, MongoDB, Python (including libraries as numpy, scikit, nltk, matplotlib), ElasticSearch, Logstash, Kibana.
+    Sviluppo di nuove feature, ottimizzazione e testing di un prodotto saas proprietario.
+    Lavoro con partner e clienti internazionali.
+    Analisi dati e algoritmi di machine learning (tra cui classificazione, regressione lineare, natural language processing) su grandi volumi di dati.
+    Utilizzo dell' elastic stack (ElasticSearch, Kibana, Logstash) per statistiche a analisi dati. 
+    Le tencologie più usate sono PHP, Symfony, MySQL, MongoDB, Python (con librerie come numpy, scikit, nltk, matplotlib), ElasticSearch, Logstash, Kibana.
   website: https://www.ncorehr.com/
 
 - company: e-one
   position: Full stack Web Developer
-  timeperiod: November 2015 - July 2019
+  timeperiod: Novembre 2015 - Luglio 2019
   description: 
     Team leader, devops.
-    Design (effort, technologies, infrastructure, model, optimization, continous integration), develope and testing high load web applications.
-    Optimization process from database level to application level including custom solutions.
-    Data analysis and statistics using SQL databases, NoSQL databases and ElasticSearch.
-    Setting up docker for both development and production with continous integration solutions such as Gitlab CI and Jenkins.
-    Most used technologies are PHP, Symfony (and all related components), MySQL, MongoDB, Redis, ElasticSearch, Git, Linux (LAMP stack), Apache, NGINX, Docker, Javascript, AngularJS, VueJS.
+    Sviluppo e testing di tutte le fasi (stime/effort, scelta tecnologica, infrastruttura, modello dati, ottimizzazione, continous integration) di applicazioni ad alto carico.
+    Processo di ottimizzazione a partire dal database fino all'applicazione.
+    Analisi dati e statistiche usando databse SQL, NoSQL e ElasticSearch.
+    Utilizzo di docker sia per sviluppo che per produzioni con sistemi di continous integration come GitlabCI e Jenkis.
+    Le tecnologie più utilizzate sono PHP, Symfony (e tutti i suoi principali componenti), MySQL, MongoDB, Redis, ElasticSearch, Git, Linux (stack LAMP), Apache, NGINX, Docker, Javascript, AngularJS, VueJS.
   website: http://www.e-one.it/
 
 - company: Web Developer
   position: Web Developer
-  timeperiod: July 2015 - November 2015
+  timeperiod: Luglio 2015 - Novembre 2015
 
 education:
 - degree: Informatica e Telecomunicazioni
   timeperiod: 2009 - 2015
 
-- degree: Music
-  timeperiod: Since 2015
+- degree: Musica
+  timeperiod: dal 2015
 
 # skill level goes 0 to 100
 skills:
@@ -89,13 +89,13 @@ hobbies:
 - name: AI
   iconClass: fa fa-laptop
 
-- name: Music
+- name: Musica
   iconClass: fa fa-music
 
-- name: Art
+- name: Arte
   iconClass: fa fa-pencil
 
-- name: Books
+- name: Libri
   iconClass: fa fa-book
 
 - name: Blockchain
