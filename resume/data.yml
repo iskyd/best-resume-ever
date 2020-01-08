@@ -22,7 +22,7 @@ experience:
     Working with international partners and customers.
     Data Analysis and Machine learning algorithm (classification, regression, natural language processing) on large volume of data.
     Elastic stack (ElasticSearch, Kibana, Logstash) for statistics and data analysis.
-    Most used technologies are PHP, Symfony, MySQL, MongoDB, Python (including libraries as numpy, scikit, nltk, matplotlib), ElasticSearch, Logstash, Kibana.
+    Most used technologies are PHP, Symfony, MySQL, MongoDB, Python (including libraries as numpy, scikit, nltk, matplotlib), ElasticSearch, Logstash, Kibana, Docker.
   website: https://www.ncorehr.com/
 
 - company: e-one

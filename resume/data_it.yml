@@ -22,7 +22,7 @@ experience:
     Lavoro con partner e clienti internazionali.
     Analisi dati e algoritmi di machine learning (tra cui classificazione, regressione lineare, natural language processing) su grandi volumi di dati.
     Utilizzo dell' elastic stack (ElasticSearch, Kibana, Logstash) per statistiche a analisi dati. 
-    Le tencologie più usate sono PHP, Symfony, MySQL, MongoDB, Python (con librerie come numpy, scikit, nltk, matplotlib), ElasticSearch, Logstash, Kibana.
+    Le tencologie più usate sono PHP, Symfony, MySQL, MongoDB, Python (con librerie come numpy, scikit, nltk, matplotlib), ElasticSearch, Logstash, Kibana, Docker.
   website: https://www.ncorehr.com/
 
 - company: e-one
